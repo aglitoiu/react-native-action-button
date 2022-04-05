@@ -1,17 +1,20 @@
-# react-native-action-button
-customizable multi-action-button component for react-native
+# react-native-action-button-warnings-fixed
+customizable multi-action-button component for react-native, now without warnings
 
 ![react-native-action-button demo](http://i.giphy.com/26BkMir9IcAhqe4EM.gif)
 ![react-native-action-button demo](http://i.giphy.com/xTcnTeW9BBXh8wMhLq.gif)
 ![react-native-action-button demo](http://i.giphy.com/l0K7psuhDQGLeT3d6.gif)
 ![react-native-action-button demo](http://i.giphy.com/xTcnSOtuet39cM46s0.gif)
 
+### 2.9.1 Update
+- Fixed "useNativeDriver" warning
+
 ### Known Issues
 - Doesn't Work While Android Debugging. See issue [#79](https://github.com/mastermoo/react-native-action-button/issues/79).
 
 ### Installation
 ```bash
-npm i react-native-action-button --save
+npm i react-native-action-button-warnings-fixed --save
 ```
 Link `react-native-vector-icons` native dependencies to your project with:
 ```bash
@@ -27,7 +30,7 @@ to link all libraries with native dependencies in your project.
 
 First, require it from your app's JavaScript files with:
 ```bash
-import ActionButton from 'react-native-action-button';
+import ActionButton from 'react-native-action-button-warnings-fixed';
 ```
 
 ##### ActionButton
@@ -43,7 +46,7 @@ _The following Basic example can be found in `example/Basic`._
 ```js
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
-import ActionButton from 'react-native-action-button';
+import ActionButton from 'react-native-action-button-warnings-fixed';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 
